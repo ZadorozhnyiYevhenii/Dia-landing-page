@@ -24,6 +24,7 @@
 
   &:target {
     opacity: 1;
+    overflow-y: auto;
     pointer-events: all;
     transform: translateX(0);
   }
@@ -85,5 +86,5 @@
   .page:has(&:target) {
     overflow: hidden;
   }
-  
+
 }
